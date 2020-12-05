@@ -12,7 +12,7 @@
         <!--Setting-->
         <scene sceneID="fja-ff-NlX">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="2hL-oa-3Zk" customClass="SetingViewController" sceneMemberID="viewController">
+                <viewController id="2hL-oa-3Zk" customClass="SetingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JRy-vY-hCE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
