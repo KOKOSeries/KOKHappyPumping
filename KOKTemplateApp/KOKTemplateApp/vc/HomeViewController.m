@@ -8,6 +8,7 @@
 #import "HomeViewController.h"
 #import "YYFPSLabel.h"
 #import "SceneDelegate.h"
+#import "KOKLuckyLotteryView.h"
 @interface HomeViewController ()
 @property (nonatomic, strong) YYFPSLabel *fpsLabel;
 @end
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = UIColorFromRGB(0x2e1a3d);
+    KOKLuckyLotteryView * view = [KOKLuckyLotteryView newView];
+    [self.view addSubview:view];
+    view.backgroundColor =  UIColorFromRGB(0x2e1a3d);
 //    _fpsLabel = [YYFPSLabel new];
 //    _fpsLabel.frame = CGRectMake(200, 200, 50, 30);
 //    [_fpsLabel sizeToFit];

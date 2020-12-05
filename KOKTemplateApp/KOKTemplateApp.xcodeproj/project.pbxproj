@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A9CFA6257B8BF500F7617A /* KOKLuckyLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFA2257B8BF500F7617A /* KOKLuckyLotteryView.m */; };
+		40A9CFA7257B8BF500F7617A /* KOKLuckyLotteryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CFA4257B8BF500F7617A /* KOKLuckyLotteryView.xib */; };
 		E337E16F257AE8970045328C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E337E16E257AE8970045328C /* AppDelegate.m */; };
 		E337E172257AE8970045328C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E337E171257AE8970045328C /* SceneDelegate.m */; };
 		E337E175257AE8970045328C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E337E174257AE8970045328C /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40A9CFA2257B8BF500F7617A /* KOKLuckyLotteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOKLuckyLotteryView.m; sourceTree = "<group>"; };
+		40A9CFA3257B8BF500F7617A /* KOKPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKPrefixHeader.pch; sourceTree = "<group>"; };
+		40A9CFA4257B8BF500F7617A /* KOKLuckyLotteryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KOKLuckyLotteryView.xib; sourceTree = "<group>"; };
+		40A9CFA5257B8BF500F7617A /* KOKLuckyLotteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKLuckyLotteryView.h; sourceTree = "<group>"; };
 		E337E16A257AE8970045328C /* KOKTemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOKTemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E337E16D257AE8970045328C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E337E16E257AE8970045328C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +75,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40A9CFA1257B8BF500F7617A /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CFA5257B8BF500F7617A /* KOKLuckyLotteryView.h */,
+				40A9CFA2257B8BF500F7617A /* KOKLuckyLotteryView.m */,
+				40A9CFA4257B8BF500F7617A /* KOKLuckyLotteryView.xib */,
+				40A9CFA3257B8BF500F7617A /* KOKPrefixHeader.pch */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
 		E337E161257AE8970045328C = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +130,7 @@
 		E337E192257B0D370045328C /* vc */ = {
 			isa = PBXGroup;
 			children = (
+				40A9CFA1257B8BF500F7617A /* custom */,
 				E337E18E257B0D300045328C /* SetingViewController.h */,
 				E337E18F257B0D300045328C /* SetingViewController.m */,
 				E337E194257B0D600045328C /* HomeViewController.h */,
@@ -203,6 +221,7 @@
 				E337E1A2257B313E0045328C /* opensourceSDKdata.plist in Resources */,
 				E337E180257AE8980045328C /* LaunchScreen.storyboard in Resources */,
 				E38EDD79257C066C0055CC7C /* OpensourceSDKVC.xib in Resources */,
+				40A9CFA7257B8BF500F7617A /* KOKLuckyLotteryView.xib in Resources */,
 				E337E17D257AE8980045328C /* Assets.xcassets in Resources */,
 				E337E178257AE8980045328C /* Main.storyboard in Resources */,
 			);
@@ -218,6 +237,7 @@
 				E337E183257AE8980045328C /* main.m in Sources */,
 				E337E175257AE8970045328C /* ViewController.m in Sources */,
 				E38EDD78257C066C0055CC7C /* OpensourceSDKVC.m in Sources */,
+				40A9CFA6257B8BF500F7617A /* KOKLuckyLotteryView.m in Sources */,
 				E337E1B9257B381E0045328C /* YYFPSLabel.m in Sources */,
 				E3E5218C257B5E0600D0D7DB /* KOKWIndow.m in Sources */,
 				E337E17B257AE8980045328C /* KOKTemplateApp.xcdatamodeld in Sources */,
@@ -371,14 +391,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26C6TQKPPY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KOKTemplateApp/vc/custom/KOKPrefixHeader.pch";
 				INFOPLIST_FILE = KOKTemplateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhaoyang.sports.kok.KOKTemplateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -389,14 +411,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26C6TQKPPY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KOKTemplateApp/vc/custom/KOKPrefixHeader.pch";
 				INFOPLIST_FILE = KOKTemplateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhaoyang.sports.kok.KOKTemplateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
