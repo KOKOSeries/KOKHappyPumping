@@ -2,15 +2,15 @@
 KokoTemplateApp
 
 
-# Privacy Policy
+## Privacy Policy
 
 About us [Mainpage](https://kokoseries.github.io/KOKHappyPumping/)
 
 
-# History Version
+## History Version
 
 
-# Question Collection
+## Question Collection
 
 
-# Future Plan
+## Future Plan
