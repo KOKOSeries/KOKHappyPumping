@@ -153,7 +153,7 @@
     <resources>
         <image name="imgNormal" width="86" height="57.5"/>
         <image name="imgSelected" width="85.5" height="57.5"/>
-        <image name="imgStart" width="184.5" height="123"/>
+        <image name="imgStart" width="123" height="82"/>
         <image name="luckyBackStar" width="415" height="293.5"/>
     </resources>
 </document>
