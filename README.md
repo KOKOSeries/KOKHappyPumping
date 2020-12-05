@@ -1,10 +1,11 @@
 # KokoTemplateApp
-KokoTemplateApp
+KokoTemplateApp 
 
+About us [Mainpage](https://kokoseries.github.io/KOKHappyPumping/)
 
 ## Privacy Policy
 
-About us [Mainpage](https://kokoseries.github.io/KOKHappyPumping/)
+
 
 
 ## History Version
