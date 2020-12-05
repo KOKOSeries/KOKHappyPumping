@@ -13,7 +13,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="295"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="luckyBackground" translatesAutoresizingMaskIntoConstraints="NO" id="6Zl-VF-KQK">
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Zl-VF-KQK">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="295"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </imageView>
@@ -31,73 +31,73 @@
                             <rect key="frame" x="0.0" y="0.0" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="圣" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h98-pE-bhV">
                             <rect key="frame" x="62" y="0.0" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="诞" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4L-vv-yae">
                             <rect key="frame" x="124" y="0.0" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="快" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-9v-gRm">
                             <rect key="frame" x="186" y="0.0" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="乐" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUV-x9-Uxh">
                             <rect key="frame" x="186" y="40" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="好" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wT-RB-1js">
                             <rect key="frame" x="186" y="80" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="礼" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTb-fP-JWZ">
                             <rect key="frame" x="186" y="120" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="相" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJu-Nu-IZR">
                             <rect key="frame" x="124" y="120" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="送" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfz-SH-CXm">
                             <rect key="frame" x="62" y="120" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="等" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0w-eM-rlw">
                             <rect key="frame" x="0.0" y="120" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="你" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvK-9x-q7T">
                             <rect key="frame" x="0.0" y="80" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="来" backgroundImage="imgSelected"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZd-Gb-U1F">
                             <rect key="frame" x="0.0" y="40" width="58" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" backgroundImage="imgNormal"/>
-                            <state key="selected" backgroundImage="imgSelected"/>
+                            <state key="selected" title="拿" backgroundImage="imgSelected"/>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -151,10 +151,9 @@
         </view>
     </objects>
     <resources>
-        <image name="imgNormal" width="57.5" height="38.5"/>
-        <image name="imgSelected" width="58.5" height="39.5"/>
-        <image name="imgStart" width="123" height="82"/>
-        <image name="luckyBackStar" width="276.5" height="195.5"/>
-        <image name="luckyBackground" width="501.5" height="295"/>
+        <image name="imgNormal" width="86" height="57.5"/>
+        <image name="imgSelected" width="85.5" height="57.5"/>
+        <image name="imgStart" width="184.5" height="123"/>
+        <image name="luckyBackStar" width="415" height="293.5"/>
     </resources>
 </document>

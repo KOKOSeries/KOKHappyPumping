@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "bg (1).jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "色相饱和度2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

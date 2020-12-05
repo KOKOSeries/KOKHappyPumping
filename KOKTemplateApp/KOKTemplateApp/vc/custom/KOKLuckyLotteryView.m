@@ -18,7 +18,7 @@
 }
 - (IBAction)startClick:(UIButton *)sender {
     sender.enabled = NO;
-    int x = 48 + (arc4random() % 24);
+    int x = 72 + (arc4random() % 36);
     _xTime = (float)x/10;
     if (_btnOld) {
         _btnOld.selected = NO;
@@ -34,7 +34,7 @@
     //(2)
     dispatch_source_t timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
     //(3)
-    dispatch_source_set_timer(timer, DISPATCH_TIME_NOW, 0.2 * NSEC_PER_SEC, 0 * NSEC_PER_SEC);
+    dispatch_source_set_timer(timer, DISPATCH_TIME_NOW, 0.3 * NSEC_PER_SEC, 0 * NSEC_PER_SEC);
     //(4)
     dispatch_source_set_event_handler(timer, ^{
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -46,7 +46,7 @@
                 [self pushVC];
                 dispatch_cancel(timer);
             } else {
-                double x = (second / 0.2);
+                double x = (second / 0.3);
                 NSString * str = [NSString stringWithFormat:@"%f",x];
                 int i = str.intValue % 12;
 //                NSLog(@"----------sc-%f-%d",x,i);
@@ -57,7 +57,7 @@
                 }
                 weakSelf.btnOld = btn;
                 
-                second += 0.2;
+                second += 0.3;
             }
         });
     });

@@ -23,11 +23,16 @@
     [super viewDidLoad];
     self.title = @"Chirsmas";
     [self setupEmitter];
-    self.view.backgroundColor = UIColorFromRGB(0x2e1a3d);
+    
+    UIImageView * bg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    [self.view addSubview:bg];
+    bg.image = [UIImage imageNamed:@"imgBG"];
+    
+//    self.view.backgroundColor = UIColorFromRGB(0x2e1a3d);
 //    self.view.backgroundColor = UIColorFromRGB(0x4c0002);
     KOKLuckyLotteryView * view = [KOKLuckyLotteryView newView];
     [self.view addSubview:view];
-    view.backgroundColor =  UIColorFromRGB(0x2e1a3d);
+//    view.backgroundColor =  UIColorFromRGB(0x2e1a3d);
     view.vc = self;
 //    view.backgroundColor = UIColorFromRGB(0x4c0002);
 //    _fpsLabel = [YYFPSLabel new];
