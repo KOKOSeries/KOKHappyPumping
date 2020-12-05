@@ -24,9 +24,12 @@
     self.title = @"Chirsmas";
     [self setupEmitter];
     self.view.backgroundColor = UIColorFromRGB(0x2e1a3d);
+//    self.view.backgroundColor = UIColorFromRGB(0x4c0002);
     KOKLuckyLotteryView * view = [KOKLuckyLotteryView newView];
     [self.view addSubview:view];
     view.backgroundColor =  UIColorFromRGB(0x2e1a3d);
+    view.vc = self;
+//    view.backgroundColor = UIColorFromRGB(0x4c0002);
 //    _fpsLabel = [YYFPSLabel new];
 //    _fpsLabel.frame = CGRectMake(200, 200, 50, 30);
 //    [_fpsLabel sizeToFit];
@@ -43,10 +46,10 @@
 //    window2.hidden = NO;
 //    [window2 makeKeyAndVisible];
 }
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    ResultViewController *vc = [[ResultViewController alloc]initWithNibName:@"ResultViewController" bundle:[NSBundle mainBundle]];
-    [self presentViewController:vc animated:YES completion:^{}];
-}
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    ResultViewController *vc = [[ResultViewController alloc]initWithNibName:@"ResultViewController" bundle:[NSBundle mainBundle]];
+//    [self presentViewController:vc animated:YES completion:^{}];
+//}
 - (void)setupEmitter{
 
     // 1. 设置CAEmitterLayer

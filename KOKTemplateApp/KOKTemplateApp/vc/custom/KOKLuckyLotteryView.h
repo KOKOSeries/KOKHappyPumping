@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *itemArray;
 @property (nonatomic, strong) UIButton * btnOld;
 @property (nonatomic, assign) float xTime;
+@property (nonatomic, strong) UIViewController * vc;
 + (instancetype)newView;
 @end
 

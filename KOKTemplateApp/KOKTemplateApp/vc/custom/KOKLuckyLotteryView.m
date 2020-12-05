@@ -6,6 +6,7 @@
 //
 
 #import "KOKLuckyLotteryView.h"
+#import "ResultViewController.h"
 
 @implementation KOKLuckyLotteryView
 
@@ -42,6 +43,7 @@
                 weakSelf.startBtn.enabled = YES;
 //                second = 60;
                 //(6)
+                [self pushVC];
                 dispatch_cancel(timer);
             } else {
                 double x = (second / 0.2);
@@ -61,6 +63,12 @@
     });
     //(5)
     dispatch_resume(timer);
+}
+
+- (void)pushVC
+{
+    ResultViewController *vc = [[ResultViewController alloc]initWithNibName:@"ResultViewController" bundle:[NSBundle mainBundle]];
+    [self.vc presentViewController:vc animated:YES completion:^{}];
 }
 
 @end
