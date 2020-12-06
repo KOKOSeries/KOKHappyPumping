@@ -84,31 +84,28 @@
         } break;
         case 1:{
             NSLog(@"%ld",sender.tag);
-            NSURL *url = [NSURL URLWithString:@""];
-            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:@""];
+            NSURL *url = [NSURL URLWithString:@"https://kokoseries.github.io/KOKHappyPumping/"];
+            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:url];
             vc.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:vc animated:YES completion:^{}];
         }break;
         case 2:{
-            NSURL *url = [NSURL URLWithString:@""];
-            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:@""];
+            NSURL *url = [NSURL URLWithString:@"https://kokoseries.github.io/KOKHappyPumping/"];
+            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:url];
             vc.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:vc animated:YES completion:^{}];
-            NSLog(@"%ld",sender.tag);
         }break;
         case 3:{
-            NSURL *url = [NSURL URLWithString:@""];
-            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:@""];
+            NSURL *url = [NSURL URLWithString:@"https://kokoseries.github.io/KOKHappyPumping/"];
+            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:url];
             vc.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:vc animated:YES completion:^{}];
-            NSLog(@"%ld",sender.tag);
         }break;
         case 4:{
-            NSURL *url = [NSURL URLWithString:@""];
-            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:@""];
+            NSURL *url = [NSURL URLWithString:@"https://kokoseries.github.io/KOKHappyPumping/"];
+            SFSafariViewController *vc = [[SFSafariViewController alloc]initWithURL:url];
             vc.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:vc animated:YES completion:^{}];
-            NSLog(@"%ld",sender.tag);
         }break;
         case 5:{
             NSLog(@"%ld",sender.tag);
@@ -126,6 +123,8 @@
     self.titleLabelC.text = @"Privacy policy";
     self.titleLabelD.text = @"Suport web";
     self.titleLabelE.text = @"My Plane";
+    self.logo.layer.cornerRadius = 91;
+    self.logo.layer.masksToBounds = YES;
 //    self.rightimageViewA.image = [UIImage imageNamed:@"right"];
 //    self.rightimageViewB.image = [UIImage imageNamed:@"right"];
 //    self.rightimageViewC.image = [UIImage imageNamed:@"right"];

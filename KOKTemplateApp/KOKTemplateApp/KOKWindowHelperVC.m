@@ -22,10 +22,7 @@ static KOKWindowHelperVC * kokWindowHelperVC = nil;
 {
     self = [super init];
     if (self) {
-//        UIScene
-        
         self.window  = [[KOKWIndow alloc]initWithFrame: [UIScreen mainScreen].nativeBounds];
-//        self.window.bounds.size.height = [UIScreen mainScreen].bounds.size.height;
     }
     return self;
 }
@@ -55,27 +52,14 @@ static KOKWindowHelperVC * kokWindowHelperVC = nil;
             }
             
         });
-//        /        dispatch_after(dispatch_time(0, 0), dispatch_get_main_queue()，^{
-//
-//        })；
     }
     
 }
 - (void)disable{
     if(self.window.rootViewController != nil){
         self.window.rootViewController = nil;
-//        self.window.delegate = nil
-        ;
         self.window.hidden = YES;
     }
-//    if window.rootViewController != nil {
-//        window.rootViewController = nil
-//        window.delegate = nil
-//        window.isHidden = true
-//        //            _DebugMemoryMonitor.sharedInstance()?.stopMonitoring()
-//        //            _DebugCpuMonitor.sharedInstance()?.stopMonitoring()
-//        //            fpsCounter.stopMonitoring()
-//    }
 }
 -(UIViewController *)vc{
     if (!_vc) {
