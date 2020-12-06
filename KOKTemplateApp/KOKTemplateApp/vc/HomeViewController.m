@@ -9,6 +9,7 @@
 #import "YYFPSLabel.h"
 #import "SceneDelegate.h"
 #import "KOKLuckyLotteryView.h"
+#import "ResultViewController.h"
 @interface HomeViewController ()
 @property (nonatomic, strong) YYFPSLabel *fpsLabel;
 @property (nonatomic, strong) CAEmitterLayer * rainLayer;
@@ -41,6 +42,12 @@
 //    window2.windowLevel = 100000;
 //    window2.hidden = NO;
 //    [window2 makeKeyAndVisible];
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    ResultViewController *vc = [[ResultViewController alloc]initWithNibName:@"ResultViewController" bundle:[NSBundle mainBundle]];
+    [self presentViewController:vc animated:YES completion:^{
+            
+    }];
 }
 - (void)setupEmitter{
 
