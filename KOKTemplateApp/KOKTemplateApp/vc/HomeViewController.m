@@ -10,6 +10,7 @@
 #import "SceneDelegate.h"
 #import "KOKLuckyLotteryView.h"
 #import "ResultViewController.h"
+#import "RecordViewController.h"
 @interface HomeViewController ()
 @property (nonatomic, strong) YYFPSLabel *fpsLabel;
 @property (nonatomic, strong) CAEmitterLayer * rainLayer;
@@ -19,7 +20,8 @@
 
 @implementation HomeViewController
 - (IBAction)button:(UIBarButtonItem *)sender {
-    
+    RecordViewController *vc = [[RecordViewController alloc]initWithNibName:@"RecordViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)viewDidLoad {

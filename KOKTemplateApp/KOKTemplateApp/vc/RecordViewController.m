@@ -19,19 +19,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorNamed:@"tintColor"];
     // Do any additional setup after loading the view from its nib.
+    [self.tableView registerNib:[UINib nibWithNibName:@"GiftTableViewCell" bundle:nil] forCellReuseIdentifier:@"RecordViewControllerCellID"];
+
 }
 
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    GiftTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RecordViewControllerCellID"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"OpensourceSDKVCCellID"];
     if (cell == nil) {
-        cell = [[GiftTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"RecordViewControllerCellID"];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"OpensourceSDKVCCellID"];
+        
     }
-    
+    cell.backgroundColor = [UIColor colorNamed:@"tintColor"];
+    NSDictionary *dic = self.array[indexPath.row];
+    cell.textLabel.text = dic[@"gittName"];
+    cell.imageView.image = [UIImage imageNamed:dic[@"giftImage"]];
+    cell.selectedBackgroundView.backgroundColor = [UIColor clearColor];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return  95;
+}
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.array.count;
 }

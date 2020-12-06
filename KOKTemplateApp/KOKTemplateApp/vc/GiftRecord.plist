@@ -3,6 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>gifts</key>
-	<array/>
+	<array>
+		<dict>
+			<key>giftNumber</key>
+			<string>0</string>
+			<key>gittName</key>
+			<string>Lollipop</string>
+			<key>giftImage</key>
+			<string>棒棒糖</string>
+			<key>giftDescriptiion</key>
+			<string>Love lollipop, full of vitality all day</string>
+		</dict>
+	</array>
 </dict>
 </plist>
