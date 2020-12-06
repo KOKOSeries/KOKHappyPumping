@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gifts</key>
+	<array>
+		<dict>
+			<key>giftNumber</key>
+			<string>棒棒糖</string>
+			<key>giftImage</key>
+			<string>棒棒糖</string>
+			<key>giftDescriptiion</key>
+			<string>爱心棒棒糖，元气满满一整天</string>
+		</dict>
+	</array>
+</dict>
+</plist>

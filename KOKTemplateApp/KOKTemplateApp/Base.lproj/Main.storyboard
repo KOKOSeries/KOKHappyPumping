@@ -366,15 +366,39 @@
                     <view key="view" contentMode="scaleToFill" id="yjY-sy-w6E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r8C-h8-le5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Solemnly declare:The prizes of the happy draw are just beautiful cards" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OK0-N8-TiT">
+                                <rect key="frame" x="0.0" y="670" width="414" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="highlightedColor" name="tintColor"/>
+                                <color key="shadowColor" name="tintColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ar0-qF-GGt"/>
                         <color key="backgroundColor" name="tintColor"/>
                         <color key="tintColor" name="tintColor"/>
+                        <constraints>
+                            <constraint firstItem="ar0-qF-GGt" firstAttribute="bottom" secondItem="OK0-N8-TiT" secondAttribute="bottom" id="5pe-jY-tZq"/>
+                            <constraint firstItem="OK0-N8-TiT" firstAttribute="leading" secondItem="ar0-qF-GGt" secondAttribute="leading" id="6Mk-Rf-6jq"/>
+                            <constraint firstItem="r8C-h8-le5" firstAttribute="top" secondItem="ar0-qF-GGt" secondAttribute="top" id="8FQ-Uh-ULE"/>
+                            <constraint firstItem="r8C-h8-le5" firstAttribute="bottom" secondItem="ar0-qF-GGt" secondAttribute="bottom" id="94K-9Y-9tw"/>
+                            <constraint firstItem="ar0-qF-GGt" firstAttribute="trailing" secondItem="r8C-h8-le5" secondAttribute="trailing" id="GES-z9-7ds"/>
+                            <constraint firstItem="ar0-qF-GGt" firstAttribute="trailing" secondItem="OK0-N8-TiT" secondAttribute="trailing" id="lHe-tb-dse"/>
+                            <constraint firstItem="r8C-h8-le5" firstAttribute="leading" secondItem="ar0-qF-GGt" secondAttribute="leading" id="rcX-ag-lOw"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home" leftItemsSupplementBackButton="YES" id="Cf4-5x-TqF"/>
+                    <connections>
+                        <outlet property="imageView" destination="r8C-h8-le5" id="aqK-Kc-Gak"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhs-hM-h9A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="319" y="-932"/>
+            <point key="canvasLocation" x="318.84057971014494" y="-932.14285714285711"/>
         </scene>
         <!--Tabbar View Controller-->
         <scene sceneID="nLp-wc-wFa">
@@ -403,9 +427,15 @@
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="eQP-Ci-3mJ">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="fiP-vw-jdW">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="fiP-vw-jdW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="tintColor"/>
+                        <color key="barTintColor" name="tintColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="tintColor"/>
+                            <color key="textShadowColor" name="tintColor"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Kwg-2e-L4H" kind="relationship" relationship="rootViewController" id="v98-JF-wNl"/>

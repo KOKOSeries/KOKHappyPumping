@@ -24,6 +24,9 @@
 		E337E1B9257B381E0045328C /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E337E1B6257B381E0045328C /* YYFPSLabel.m */; };
 		E38EDD78257C066C0055CC7C /* OpensourceSDKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E38EDD76257C066C0055CC7C /* OpensourceSDKVC.m */; };
 		E38EDD79257C066C0055CC7C /* OpensourceSDKVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38EDD77257C066C0055CC7C /* OpensourceSDKVC.xib */; };
+		E38EDD8F257C6F090055CC7C /* giftList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E38EDD8E257C6F090055CC7C /* giftList.plist */; };
+		E38EDD9B257C713F0055CC7C /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38EDD99257C713F0055CC7C /* ResultViewController.m */; };
+		E38EDD9C257C713F0055CC7C /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38EDD9A257C713F0055CC7C /* ResultViewController.xib */; };
 		E3E52188257B5D9F00D0D7DB /* KOKWindowHelperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E52187257B5D9F00D0D7DB /* KOKWindowHelperVC.m */; };
 		E3E5218C257B5E0600D0D7DB /* KOKWIndow.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E5218B257B5E0600D0D7DB /* KOKWIndow.m */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,10 @@
 		E38EDD75257C066C0055CC7C /* OpensourceSDKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpensourceSDKVC.h; sourceTree = "<group>"; };
 		E38EDD76257C066C0055CC7C /* OpensourceSDKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpensourceSDKVC.m; sourceTree = "<group>"; };
 		E38EDD77257C066C0055CC7C /* OpensourceSDKVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpensourceSDKVC.xib; sourceTree = "<group>"; };
+		E38EDD8E257C6F090055CC7C /* giftList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = giftList.plist; sourceTree = "<group>"; };
+		E38EDD98257C713F0055CC7C /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		E38EDD99257C713F0055CC7C /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		E38EDD9A257C713F0055CC7C /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
 		E3E52186257B5D9F00D0D7DB /* KOKWindowHelperVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKWindowHelperVC.h; sourceTree = "<group>"; };
 		E3E52187257B5D9F00D0D7DB /* KOKWindowHelperVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKWindowHelperVC.m; sourceTree = "<group>"; };
 		E3E5218A257B5E0600D0D7DB /* KOKWIndow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKWIndow.h; sourceTree = "<group>"; };
@@ -139,6 +146,10 @@
 				E38EDD76257C066C0055CC7C /* OpensourceSDKVC.m */,
 				E38EDD77257C066C0055CC7C /* OpensourceSDKVC.xib */,
 				E337E1A1257B313E0045328C /* opensourceSDKdata.plist */,
+				E38EDD8E257C6F090055CC7C /* giftList.plist */,
+				E38EDD98257C713F0055CC7C /* ResultViewController.h */,
+				E38EDD99257C713F0055CC7C /* ResultViewController.m */,
+				E38EDD9A257C713F0055CC7C /* ResultViewController.xib */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -223,7 +234,9 @@
 				E38EDD79257C066C0055CC7C /* OpensourceSDKVC.xib in Resources */,
 				40A9CFA7257B8BF500F7617A /* KOKLuckyLotteryView.xib in Resources */,
 				E337E17D257AE8980045328C /* Assets.xcassets in Resources */,
+				E38EDD8F257C6F090055CC7C /* giftList.plist in Resources */,
 				E337E178257AE8980045328C /* Main.storyboard in Resources */,
+				E38EDD9C257C713F0055CC7C /* ResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E337E183257AE8980045328C /* main.m in Sources */,
+				E38EDD9B257C713F0055CC7C /* ResultViewController.m in Sources */,
 				E337E175257AE8970045328C /* ViewController.m in Sources */,
 				E38EDD78257C066C0055CC7C /* OpensourceSDKVC.m in Sources */,
 				40A9CFA6257B8BF500F7617A /* KOKLuckyLotteryView.m in Sources */,
