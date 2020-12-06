@@ -32,7 +32,17 @@
 			<key>giftImage</key>
 			<string>老人机</string>
 			<key>giftDescriptiion</key>
-			<string>Love lollipop, full of vitality all day</string>
+			<string>If the body is old and the heart is not old, use Nokia to catch up with the times</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>3</string>
+			<key>gittName</key>
+			<string>Bag</string>
+			<key>giftImage</key>
+			<string>包包</string>
+			<key>giftDescriptiion</key>
+			<string>Love lollWoman&apos;s bag, man&apos;s heartipop, full of vitality all day</string>
 		</dict>
 		<dict>
 			<key>giftNumber</key>
@@ -40,7 +50,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>笔记本</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -50,7 +60,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>梨</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -60,7 +70,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>帽子</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -70,7 +80,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>牛仔帽</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -80,7 +90,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>女装T恤</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -90,7 +100,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>皮带</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -100,7 +110,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>皮鞋</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -110,7 +120,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>皮靴</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -120,7 +130,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>苹果电脑</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -130,7 +140,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>手机</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -140,7 +150,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>水果苹果</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -150,7 +160,7 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>塑料鞋</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
 		</dict>
@@ -160,9 +170,40 @@
 			<key>gittName</key>
 			<string>Lollipop</string>
 			<key>giftImage</key>
-			<string>棒棒糖</string>
+			<string>洗衣机</string>
 			<key>giftDescriptiion</key>
 			<string>Love lollipop, full of vitality all day</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>0</string>
+			<key>gittName</key>
+			<string>Lollipop</string>
+			<key>giftImage</key>
+			<string>运动鞋</string>
+			<key>giftDescriptiion</key>
+			<string>Love lollipop, full of vitality all day</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>0</string>
+			<key>gittName</key>
+			<string>Lollipop</string>
+			<key>giftImage</key>
+			<string>T恤</string>
+			<key>giftDescriptiion</key>
+			<string>Love lollipop, full of vitality all day</string>
+			<key>New item</key>
+			<dict>
+				<key>giftNumber</key>
+				<string>0</string>
+				<key>gittName</key>
+				<string>Lollipop</string>
+				<key>giftImage</key>
+				<string>Logo</string>
+				<key>giftDescriptiion</key>
+				<string>Love lollipop, full of vitality all day</string>
+			</dict>
 		</dict>
 	</array>
 </dict>

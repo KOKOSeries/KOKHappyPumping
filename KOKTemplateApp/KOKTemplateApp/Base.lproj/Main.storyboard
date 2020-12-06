@@ -391,7 +391,13 @@
                             <constraint firstItem="r8C-h8-le5" firstAttribute="leading" secondItem="ar0-qF-GGt" secondAttribute="leading" id="rcX-ag-lOw"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" leftItemsSupplementBackButton="YES" id="Cf4-5x-TqF"/>
+                    <navigationItem key="navigationItem" title="Home" leftItemsSupplementBackButton="YES" id="Cf4-5x-TqF">
+                        <barButtonItem key="rightBarButtonItem" title="Record" image="aqi.low" catalog="system" style="plain" id="f3j-Ji-gKf">
+                            <connections>
+                                <action selector="button:" destination="Kwg-2e-L4H" id="96d-8C-ztg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imageView" destination="r8C-h8-le5" id="aqK-Kc-Gak"/>
                     </connections>
@@ -467,6 +473,7 @@
     </scenes>
     <resources>
         <image name="Logo" width="1024" height="1024"/>
+        <image name="aqi.low" catalog="system" width="128" height="119"/>
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
