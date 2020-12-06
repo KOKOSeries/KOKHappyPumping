@@ -15,6 +15,8 @@
 @property (nonatomic, strong) YYFPSLabel *fpsLabel;
 @property (nonatomic, strong) CAEmitterLayer * rainLayer;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong,nonatomic) UIImageView *imageView2;
+
 
 @end
 
@@ -27,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Chirsmas";
-    [self setupEmitter];
+   
     
     UIImageView * bg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     [self.view addSubview:bg];
@@ -39,6 +41,7 @@
     [self.view addSubview:view];
 //    view.backgroundColor =  UIColorFromRGB(0x2e1a3d);
     view.vc = self;
+   
 //    view.backgroundColor = UIColorFromRGB(0x4c0002);
 //    _fpsLabel = [YYFPSLabel new];
 //    _fpsLabel.frame = CGRectMake(200, 200, 50, 30);
@@ -55,6 +58,13 @@
 //    window2.windowLevel = 100000;
 //    window2.hidden = NO;
 //    [window2 makeKeyAndVisible];
+//    [self.imageView bringSubviewToFront:view];
+    
+    self.imageView2 = [[UIImageView alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:self.imageView2];
+    [self setupEmitter];
+    
+    
 }
 //- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 //    ResultViewController *vc = [[ResultViewController alloc]initWithNibName:@"ResultViewController" bundle:[NSBundle mainBundle]];
@@ -64,7 +74,7 @@
 
     // 1. 设置CAEmitterLayer
     CAEmitterLayer * rainLayer = [CAEmitterLayer layer];
-    [self.imageView.layer addSublayer:rainLayer];
+    [self.imageView2.layer addSublayer:rainLayer];
     self.rainLayer = rainLayer;
     
     rainLayer.emitterShape = kCAEmitterLayerLine;
@@ -84,7 +94,7 @@
     snowCell.velocityRange = 10.f;
     snowCell.yAcceleration = 1000.f;
     
-    snowCell.scale = 0.1;
+    snowCell.scale = 0.3;
     snowCell.scaleRange = 0.f;
     
     // 3.添加到图层上
