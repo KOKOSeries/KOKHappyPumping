@@ -45,9 +45,7 @@
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     ResultViewController *vc = [[ResultViewController alloc]initWithNibName:@"ResultViewController" bundle:[NSBundle mainBundle]];
-    [self presentViewController:vc animated:YES completion:^{
-            
-    }];
+    [self presentViewController:vc animated:YES completion:^{}];
 }
 - (void)setupEmitter{
 
