@@ -193,17 +193,36 @@
 			<string>T恤</string>
 			<key>giftDescriptiion</key>
 			<string>wear T-shirts, wear fashion</string>
-			<key>New item</key>
-			<dict>
-				<key>giftNumber</key>
-				<string>0</string>
-				<key>gittName</key>
-				<string>Lollipop</string>
-				<key>giftImage</key>
-				<string>Logo</string>
-				<key>giftDescriptiion</key>
-				<string>Love lollipop, full of vitality all day</string>
-			</dict>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>18</string>
+			<key>gittName</key>
+			<string>Coca Cola</string>
+			<key>giftImage</key>
+			<string>可乐</string>
+			<key>giftDescriptiion</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>18</string>
+			<key>gittName</key>
+			<string>Sprite</string>
+			<key>giftImage</key>
+			<string>雪碧</string>
+			<key>giftDescriptiion</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>18</string>
+			<key>gittName</key>
+			<string>WaterMelon</string>
+			<key>giftImage</key>
+			<string>西瓜</string>
+			<key>giftDescriptiion</key>
+			<string></string>
 		</dict>
 	</array>
 </dict>
