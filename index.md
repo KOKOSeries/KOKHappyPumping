@@ -8,9 +8,10 @@ You can pick up your favorite gifts and save them for your good friends.
 ### History Version 
 
 ```markdown
-1.0 create mian app  
-2.0 modyfy color 
-3.0 update gifts
+1. create mian app  
+2. modyfy color 
+3. update gifts
+4. 优化版面
 ```
 ### Pricacy Policy
 ```markdown
