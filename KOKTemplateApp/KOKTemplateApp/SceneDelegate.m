@@ -7,7 +7,6 @@
 
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
-#import "KOKWindowHelperVC.h"
 @interface SceneDelegate ()
 
 @end
@@ -16,15 +15,6 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    
-//    UIWindow *window2 = [[UIWindow alloc]initWithWindowScene:(UIWindowScene *)scene];
-//    window2.windowLevel = self.window.windowLevel + 1;
-//    UIViewController *vc =     [[UIViewController alloc]init];
-//    vc.view.backgroundColor = [UIColor redColor];
-//    window2.rootViewController = vc;
-//    [window2.rootViewController.view addSubview:self.window];
-    [[KOKWindowHelperVC shared] enable];
-    
     
 }
 

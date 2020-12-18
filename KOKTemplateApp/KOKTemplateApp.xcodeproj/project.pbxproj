@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24F574D0BF850414D5406B9D /* Pods_KOKTemplateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFCE51D6E39A7DE913CE63A /* Pods_KOKTemplateApp.framework */; };
 		40A9CFA6257B8BF500F7617A /* KOKLuckyLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFA2257B8BF500F7617A /* KOKLuckyLotteryView.m */; };
 		40A9CFA7257B8BF500F7617A /* KOKLuckyLotteryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CFA4257B8BF500F7617A /* KOKLuckyLotteryView.xib */; };
+		E326764325895A17000309B4 /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E32676402589590B000309B4 /* WMDragView.m */; };
 		E337E16F257AE8970045328C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E337E16E257AE8970045328C /* AppDelegate.m */; };
 		E337E172257AE8970045328C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E337E171257AE8970045328C /* SceneDelegate.m */; };
 		E337E175257AE8970045328C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E337E174257AE8970045328C /* ViewController.m */; };
@@ -32,8 +34,9 @@
 		E38EDDA5257C7FB40055CC7C /* GiftRecord.plist in Resources */ = {isa = PBXBuildFile; fileRef = E38EDDA4257C7FB40055CC7C /* GiftRecord.plist */; };
 		E38EDDAA257C80680055CC7C /* GiftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E38EDDA8257C80680055CC7C /* GiftTableViewCell.m */; };
 		E38EDDAB257C80680055CC7C /* GiftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38EDDA9257C80680055CC7C /* GiftTableViewCell.xib */; };
-		E3E52188257B5D9F00D0D7DB /* KOKWindowHelperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E52187257B5D9F00D0D7DB /* KOKWindowHelperVC.m */; };
-		E3E5218C257B5E0600D0D7DB /* KOKWIndow.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E5218B257B5E0600D0D7DB /* KOKWIndow.m */; };
+		E3C109CA258AAFD7007E9129 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C109C8258AAFD7007E9129 /* KxMenu.m */; };
+		E3D7C13F258C02AE00035613 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C13E258C02AE00035613 /* ShareViewController.m */; };
+		E3D7C15F258C25DE00035613 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C15E258C25DE00035613 /* SViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,10 @@
 		40A9CFA3257B8BF500F7617A /* KOKPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKPrefixHeader.pch; sourceTree = "<group>"; };
 		40A9CFA4257B8BF500F7617A /* KOKLuckyLotteryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KOKLuckyLotteryView.xib; sourceTree = "<group>"; };
 		40A9CFA5257B8BF500F7617A /* KOKLuckyLotteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKLuckyLotteryView.h; sourceTree = "<group>"; };
+		7DFCE51D6E39A7DE913CE63A /* Pods_KOKTemplateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOKTemplateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB521D44B790F498727D0D40 /* Pods-KOKTemplateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTemplateApp.release.xcconfig"; path = "Target Support Files/Pods-KOKTemplateApp/Pods-KOKTemplateApp.release.xcconfig"; sourceTree = "<group>"; };
+		E32676402589590B000309B4 /* WMDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMDragView.m; sourceTree = "<group>"; };
+		E32676412589590B000309B4 /* WMDragView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMDragView.h; sourceTree = "<group>"; };
 		E337E16A257AE8970045328C /* KOKTemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOKTemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E337E16D257AE8970045328C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E337E16E257AE8970045328C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,10 +84,13 @@
 		E38EDDA7257C80680055CC7C /* GiftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftTableViewCell.h; sourceTree = "<group>"; };
 		E38EDDA8257C80680055CC7C /* GiftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftTableViewCell.m; sourceTree = "<group>"; };
 		E38EDDA9257C80680055CC7C /* GiftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GiftTableViewCell.xib; sourceTree = "<group>"; };
-		E3E52186257B5D9F00D0D7DB /* KOKWindowHelperVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKWindowHelperVC.h; sourceTree = "<group>"; };
-		E3E52187257B5D9F00D0D7DB /* KOKWindowHelperVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKWindowHelperVC.m; sourceTree = "<group>"; };
-		E3E5218A257B5E0600D0D7DB /* KOKWIndow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKWIndow.h; sourceTree = "<group>"; };
-		E3E5218B257B5E0600D0D7DB /* KOKWIndow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKWIndow.m; sourceTree = "<group>"; };
+		E3C109C8258AAFD7007E9129 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		E3C109C9258AAFD7007E9129 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		E3D7C13D258C02AE00035613 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		E3D7C13E258C02AE00035613 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		E3D7C15D258C25DE00035613 /* SViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
+		E3D7C15E258C25DE00035613 /* SViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
+		F04BA9BC1E23FFD26E014A86 /* Pods-KOKTemplateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTemplateApp.debug.xcconfig"; path = "Target Support Files/Pods-KOKTemplateApp/Pods-KOKTemplateApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +98,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F574D0BF850414D5406B9D /* Pods_KOKTemplateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3908B6159F6328D6F99EF120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DFCE51D6E39A7DE913CE63A /* Pods_KOKTemplateApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		40A9CFA1257B8BF500F7617A /* custom */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,11 +124,22 @@
 			path = custom;
 			sourceTree = "<group>";
 		};
+		E326763F2589590B000309B4 /* FloatBtutton */ = {
+			isa = PBXGroup;
+			children = (
+				E32676402589590B000309B4 /* WMDragView.m */,
+				E32676412589590B000309B4 /* WMDragView.h */,
+			);
+			path = FloatBtutton;
+			sourceTree = "<group>";
+		};
 		E337E161257AE8970045328C = {
 			isa = PBXGroup;
 			children = (
 				E337E16C257AE8970045328C /* KOKTemplateApp */,
 				E337E16B257AE8970045328C /* Products */,
+				F8EAF50CF8ED68A053A602D4 /* Pods */,
+				3908B6159F6328D6F99EF120 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,10 +160,6 @@
 				E337E171257AE8970045328C /* SceneDelegate.m */,
 				E337E173257AE8970045328C /* ViewController.h */,
 				E337E174257AE8970045328C /* ViewController.m */,
-				E3E5218A257B5E0600D0D7DB /* KOKWIndow.h */,
-				E3E5218B257B5E0600D0D7DB /* KOKWIndow.m */,
-				E3E52186257B5D9F00D0D7DB /* KOKWindowHelperVC.h */,
-				E3E52187257B5D9F00D0D7DB /* KOKWindowHelperVC.m */,
 				E337E1B2257B381E0045328C /* ThirtyPart */,
 				E337E192257B0D370045328C /* vc */,
 				E337E176257AE8980045328C /* Main.storyboard */,
@@ -149,6 +175,8 @@
 		E337E192257B0D370045328C /* vc */ = {
 			isa = PBXGroup;
 			children = (
+				E3C109C7258AAFD7007E9129 /* KxMenu */,
+				E326763F2589590B000309B4 /* FloatBtutton */,
 				40A9CFA1257B8BF500F7617A /* custom */,
 				E337E18E257B0D300045328C /* SetingViewController.h */,
 				E337E18F257B0D300045328C /* SetingViewController.m */,
@@ -158,10 +186,10 @@
 				E38EDD76257C066C0055CC7C /* OpensourceSDKVC.m */,
 				E38EDD9E257C7F430055CC7C /* RecordViewController.h */,
 				E38EDD9F257C7F430055CC7C /* RecordViewController.m */,
+				E38EDDA0257C7F430055CC7C /* RecordViewController.xib */,
 				E38EDDA7257C80680055CC7C /* GiftTableViewCell.h */,
 				E38EDDA8257C80680055CC7C /* GiftTableViewCell.m */,
 				E38EDDA9257C80680055CC7C /* GiftTableViewCell.xib */,
-				E38EDDA0257C7F430055CC7C /* RecordViewController.xib */,
 				E38EDD77257C066C0055CC7C /* OpensourceSDKVC.xib */,
 				E337E1A1257B313E0045328C /* opensourceSDKdata.plist */,
 				E38EDD8E257C6F090055CC7C /* giftList.plist */,
@@ -169,6 +197,10 @@
 				E38EDD98257C713F0055CC7C /* ResultViewController.h */,
 				E38EDD99257C713F0055CC7C /* ResultViewController.m */,
 				E38EDD9A257C713F0055CC7C /* ResultViewController.xib */,
+				E3D7C13D258C02AE00035613 /* ShareViewController.h */,
+				E3D7C13E258C02AE00035613 /* ShareViewController.m */,
+				E3D7C15D258C25DE00035613 /* SViewController.h */,
+				E3D7C15E258C25DE00035613 /* SViewController.m */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -192,6 +224,24 @@
 			path = YYFPSLabel;
 			sourceTree = "<group>";
 		};
+		E3C109C7258AAFD7007E9129 /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E3C109C8258AAFD7007E9129 /* KxMenu.m */,
+				E3C109C9258AAFD7007E9129 /* KxMenu.h */,
+			);
+			path = KxMenu;
+			sourceTree = "<group>";
+		};
+		F8EAF50CF8ED68A053A602D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F04BA9BC1E23FFD26E014A86 /* Pods-KOKTemplateApp.debug.xcconfig */,
+				BB521D44B790F498727D0D40 /* Pods-KOKTemplateApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E337E186257AE8980045328C /* Build configuration list for PBXNativeTarget "KOKTemplateApp" */;
 			buildPhases = (
+				9AE33C4391191EA700DBB9EE /* [CP] Check Pods Manifest.lock */,
 				E337E166257AE8970045328C /* Sources */,
 				E337E167257AE8970045328C /* Frameworks */,
 				E337E168257AE8970045328C /* Resources */,
+				5B510A70FEC031AC3BED0B18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +316,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B510A70FEC031AC3BED0B18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKTemplateApp/Pods-KOKTemplateApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKTemplateApp/Pods-KOKTemplateApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KOKTemplateApp/Pods-KOKTemplateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE33C4391191EA700DBB9EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOKTemplateApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E337E166257AE8970045328C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,17 +367,19 @@
 				E38EDD9B257C713F0055CC7C /* ResultViewController.m in Sources */,
 				E337E175257AE8970045328C /* ViewController.m in Sources */,
 				E38EDD78257C066C0055CC7C /* OpensourceSDKVC.m in Sources */,
+				E3D7C15F258C25DE00035613 /* SViewController.m in Sources */,
 				40A9CFA6257B8BF500F7617A /* KOKLuckyLotteryView.m in Sources */,
 				E337E1B9257B381E0045328C /* YYFPSLabel.m in Sources */,
-				E3E5218C257B5E0600D0D7DB /* KOKWIndow.m in Sources */,
 				E337E17B257AE8980045328C /* KOKTemplateApp.xcdatamodeld in Sources */,
+				E326764325895A17000309B4 /* WMDragView.m in Sources */,
 				E337E1B8257B381E0045328C /* YYWeakProxy.m in Sources */,
 				E38EDDA1257C7F430055CC7C /* RecordViewController.m in Sources */,
 				E337E190257B0D300045328C /* SetingViewController.m in Sources */,
+				E3C109CA258AAFD7007E9129 /* KxMenu.m in Sources */,
 				E38EDDAA257C80680055CC7C /* GiftTableViewCell.m in Sources */,
-				E3E52188257B5D9F00D0D7DB /* KOKWindowHelperVC.m in Sources */,
 				E337E16F257AE8970045328C /* AppDelegate.m in Sources */,
 				E337E172257AE8970045328C /* SceneDelegate.m in Sources */,
+				E3D7C13F258C02AE00035613 /* ShareViewController.m in Sources */,
 				E337E196257B0D600045328C /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,11 +520,12 @@
 		};
 		E337E187257AE8980045328C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04BA9BC1E23FFD26E014A86 /* Pods-KOKTemplateApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = A7958323G3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/KOKTemplateApp/vc/custom/KOKPrefixHeader.pch";
 				INFOPLIST_FILE = KOKTemplateApp/Info.plist;
@@ -446,11 +543,12 @@
 		};
 		E337E188257AE8980045328C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB521D44B790F498727D0D40 /* Pods-KOKTemplateApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = A7958323G3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/KOKTemplateApp/vc/custom/KOKPrefixHeader.pch";
 				INFOPLIST_FILE = KOKTemplateApp/Info.plist;

@@ -75,6 +75,9 @@
 @end
 
 @implementation SetingViewController
+- (IBAction)backButtonClick:(UIBarButtonItem *)sender{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 - (IBAction)buttonClick:(UIButton *)sender {
     switch (sender.tag) {
         case 0:{ 
